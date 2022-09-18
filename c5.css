@@ -1,0 +1,114 @@
+body {
+  border: 10px solid #24cdb7;
+  height: 140vh;
+  padding: 50px;
+}
+.playlist-header {
+  display: flex;
+  font-size: 40px;
+  font-weight: 900;
+  padding: 50px 0px;
+}
+.playlist-header__column:first-child {
+  width: 33%;
+}
+.playlist-main {
+  display: flex;
+}
+.playlist-main__imgbox {
+  width: 240px;
+  height: 240px;
+  border-radius: 30px;
+  border: 4px solid black;
+  background-color: #ffbd11;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.playlist-main__imgbox i {
+  font-size: 85px;
+  color: white;
+}
+.playlist-main__column {
+  margin-left: 50px;
+}
+.playlist-main__column h1 {
+  font-size: 60px;
+  font-weight: 900;
+  margin: 0px 0px;
+}
+.playlist-main__column h4 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.button-icons {
+  display: flex;
+  padding: 50px 0px;
+}
+.button-icons-icon:first-child {
+  width: 330px;
+  height: 115px;
+  border: 2px solid black;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 10px solid black;
+}
+.button-icons-icon:first-child i {
+  font-size: 70px;
+  margin-right: 20px;
+}
+.button-icons-icon:first-child span {
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+.button-icons-icon:nth-child(2),
+.button-icons-icon:nth-child(3) {
+  width: 130px;
+  height: 110px;
+  border: 2px solid black;
+  border-radius: 50%;
+  border-bottom: 10px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 45px;
+  font-size: 40px;
+}
+ol {
+  list-style: none;
+  padding-left: 0px;
+}
+.playlist-music {
+  display: flex;
+  align-items: center;
+}
+.playlist-music__jacket {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin-top: 40px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+li:first-child .playlist-music__jacket {
+  background-color: #f65829;
+}
+li:nth-child(2) .playlist-music__jacket {
+  background-color: #ff89bb;
+}
+li:nth-child(3) .playlist-music__jacket {
+  background-color: #303034;
+}
+li:nth-child(4) .playlist-music__jacket {
+  background-color: #00c6ad;
+}
+.playlist-music__text {
+  margin-top: 25px;
+}
+.playlist-music__text h2 {
+  opacity: 0.5;
+}
